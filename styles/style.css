@@ -46,7 +46,7 @@
   .header{
      background-image: url("../images/developer.png"), url("../images/header_bg.png");
      background-repeat: no-repeat;
-     background-position: top left, bottom right;
+     background-position: left, bottom right;
   }
   nav{
     display: flex;
@@ -138,4 +138,60 @@ main{
 .skill{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 29.5px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.emperience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.cv-download{
+    margin-top: 50px;
+}
+
+/* footer */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"],  footer textarea{
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 5px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
